@@ -1,0 +1,85 @@
+{
+  "Languages": [
+    {
+      "id": "1",
+      "src": "./img/skills/html.png",
+      "title": "html"
+    },
+    {
+      "id": "2",
+      "src": "./img/skills/css.png",
+      "title": "css"
+    },
+    {
+      "id": "3",
+      "src": "./img/skills/js.png",
+      "title": "js"
+    },
+    {
+      "id": "4",
+      "src": "./img/skills/java.png",
+      "title": "java"
+    },
+    {
+      "id": "5",
+      "src": "./img/skills/c++.png",
+      "title": "c++t"
+    },
+    {
+      "id": "6",
+      "src": "./img/skills/python.png",
+      "title": "python"
+    },
+    {
+      "id": "7",
+      "src": "./img/skills/sql.png",
+      "title": "sql"
+    }
+  ],
+  "Frameworks": [
+    {
+      "id": "1",
+      "src": "./img/skills/reactjs.png",
+      "title": "reactjs"
+    },
+    {
+      "id": "2",
+      "src": "./img/skills/nodejs.png",
+      "title": "nodejs"
+    },
+    {
+      "id": "3",
+      "src": "./img/skills/express.png",
+      "title": "expressjs"
+    },
+    {
+      "id": "4",
+      "src": "./img/skills/spring.png",
+      "title": "spring"
+    },
+    {
+      "id": "5",
+      "src": "./img/skills/mongodb.png",
+      "title": "mongodb"
+    },
+    {
+      "id": "6",
+      "src": "./img/skills/git.png",
+      "title": "git"
+    },
+    {
+      "id": "7",
+      "src": "./img/skills/nextjs.png",
+      "title": "nextjs"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Stocks Watchlist Manager",
+      "description": "Stocks Watchlist Manager is a project which helps people to analyze, create, and update watchlists as they want. It provides real-time stock tracking, customizable alerts, and detailed analytics, offering users comprehensive tools for effective investment management.",
+      "src": "./img/expertise/stock_market.jpeg",
+      "linkGitHub": "https://github.com/yourusername/stocks-watchlist-manager",
+      "liveLink": "https://live-link.com/stocks-watchlist-manager"
+    }
+  ]
+}
