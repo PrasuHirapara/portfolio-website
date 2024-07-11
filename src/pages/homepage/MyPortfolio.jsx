@@ -1,4 +1,4 @@
-import data from "../../../data/index.json";
+import data from "../../data/index.json";
 
 export default function MyPortfolio() {
   const openGitHub = () => window.open("https://github.com/PrasuHirapara");

@@ -1,8 +1,8 @@
-import Footer from "./footer/Footer";
-import MySkills from "./skills/MySkills";
-import HeroSection from "./hero section/HeroSection";
-import ContactMe from "./contact me/ContactMe";
-import MyPortfolio from "./portfolio/MyPortfolio";
+import Footer from "./Footer";
+import MySkills from "./MySkills";
+import HeroSection from "./HeroSection";
+import ContactMe from "./ContactMe";
+import MyPortfolio from "./MyPortfolio";
 
 export default function Home() {
   return (
