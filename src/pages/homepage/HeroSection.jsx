@@ -7,7 +7,7 @@ export default function HeroSection() {
     <>
       <section id="heroSection" className="hero--section">
         <div className="hero--section--content--box">
-          <div className="hero--section--content">
+          <div className="hero--section--conten">
             <p className="section--title">Hey, I'm Prasu Hirpara</p>
             <h1 className="hero--section--title">
               <span className="hero--section--title--color">Full Stack</span>{" "}
@@ -26,7 +26,7 @@ export default function HeroSection() {
               my projects. Explore my portfolio to see some of my recent work,
               and feel free to reach out!
             </p>
-            <div className="hero--section--clickable">
+            <div className="hero--section--clickable hidden-left">
               <div className="hero--section--resume">
                 <button onClick={() => openLink("https://drive.google.com/file/d/16LkUDYpvz8NrdtfXkplOqf4hKIzQs3eE/view?usp=sharing")} className="btn btn-primary">
                   Resume
@@ -98,7 +98,7 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="hero--section--img">
+        <div className="hero--section--img hidden-right">
           <img src="./img/hero section/hero_img.png" alt="Hero Section"></img>
         </div>
       </section>

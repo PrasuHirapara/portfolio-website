@@ -68,11 +68,11 @@ export default function ContactMe() {
       </div>
       <form onSubmit={handleSubmit} className="contact--form--container">
         <div className="container">
-          <label htmlFor="firstName" className="contact--label">
+          <label htmlFor="firstName" className="contact--label hidden-left">
             <span className="text-md">First Name</span>
             <input
               type="text"
-              className="contact--input text-md"
+              className="contact--input text-md hidden-left"
               name="firstName"
               id="firstName"
               value={formData.firstName}
@@ -80,11 +80,11 @@ export default function ContactMe() {
               required
             />
           </label>
-          <label htmlFor="lastName" className="contact--label">
+          <label htmlFor="lastName" className="contact--label hidden-left">
             <span className="text-md">Last Name</span>
             <input
               type="text"
-              className="contact--input text-md"
+              className="contact--input text-md hidden-left"
               name="lastName"
               id="lastName"
               value={formData.lastName}
@@ -92,11 +92,11 @@ export default function ContactMe() {
               required
             />
           </label>
-          <label htmlFor="email" className="contact--label">
+          <label htmlFor="email" className="contact--label hidden-right">
             <span className="text-md">Email</span>
             <input
               type="email"
-              className="contact--input text-md"
+              className="contact--input text-md hidden-right"
               name="email"
               id="email"
               value={formData.email}
@@ -104,11 +104,11 @@ export default function ContactMe() {
               required
             />
           </label>
-          <label htmlFor="mobile" className="contact--label">
+          <label htmlFor="mobile" className="contact--label hidden-right">
             <span className="text-md">Mobile Number</span>
             <input
               type="text"
-              className="contact--input text-md"
+              className="contact--input text-md hidden-right"
               name="mobile"
               id="mobile"
               value={formData.mobile}
@@ -117,10 +117,10 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="message" className="contact--label">
+        <label htmlFor="message" className="contact--label hidden-up">
           <span className="text-md">Message</span>
           <textarea
-            className="contact--input text-md"
+            className="contact--input text-md hidden-up"
             name="message"
             id="message"
             rows="4"

@@ -7,7 +7,7 @@ export default function MySkills() {
         <p className="skills--section--heading">My Skills</p>
       </div>
 
-      <div className="skills--container">
+      <div className="skills--container hidden-left">
         <h3>Languages</h3>
         <div className="skills--section--container">
           {data?.Languages?.map((item, index) => (
@@ -22,9 +22,9 @@ export default function MySkills() {
         </div>
       </div>
 
-      <div className="skills--container">
+      <div className="skills--container hidden-right">
         <h3>Frameworks</h3>
-        <div className="skills--section--container">
+        <div className="skills--section--container hidden">
           {data?.Frameworks?.map((item, index) => (
             <div className="skills--section-card--main">
               <div key={index} className="skills--section--card">

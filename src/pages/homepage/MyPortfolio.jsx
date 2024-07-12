@@ -1,6 +1,8 @@
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
+  
+  let toggle = 1;
   const openGitHub = () => window.open("https://github.com/PrasuHirapara");
   const openLink = (link) => {
     if(link){
@@ -32,7 +34,7 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div key={index} className={`portfolio--section--card ${toggle++ % 2 !== 0 ? "hidden-left" : "hidden-right"}`}>
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>

@@ -1,9 +1,16 @@
 import React from "react";
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./pages/homepage/NavBar";
 import Home from "./pages/homepage";
+import { setupAnimations } from './utils/setUpAnimation';
 
 export default function App() {
+
+  useEffect(() => {
+    setupAnimations();
+  }, []);
+
   return (
     <div className="App">
       <Router>

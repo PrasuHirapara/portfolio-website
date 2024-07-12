@@ -80,6 +80,13 @@
       "src": "./img/expertise/stock_market.jpeg",
       "linkGitHub": "https://github.com/yourusername/stocks-watchlist-manager",
       "liveLink": "https://live-link.com/stocks-watchlist-manager"
+    },
+    {
+      "title": "Stocks Watchlist Manager",
+      "description": "Stocks Watchlist Manager is a project which helps people to analyze, create, and update watchlists as they want. It provides real-time stock tracking, customizable alerts, and detailed analytics, offering users comprehensive tools for effective investment management.",
+      "src": "./img/expertise/stock_market.jpeg",
+      "linkGitHub": "https://github.com/yourusername/stocks-watchlist-manager",
+      "liveLink": "https://live-link.com/stocks-watchlist-manager"
     }
   ]
 }
