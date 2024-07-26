@@ -89,6 +89,13 @@
     align-content: center;
     justify-content: center;
   }
+  .portfolio--link-tech{
+    flex-direction: column;
+    justify-self: center;
+  }
+  .portfolio--tech--container{
+    align-self: center;
+  }
   .portfolio--section--card:nth-child(odd) {
     flex-direction: column;
   }
