@@ -79,7 +79,7 @@
       "description": "Stocks Watchlist Manager is a project which helps people to analyze, create, and update watchlists as they want. It provides real-time stock tracking, customizable alerts, and detailed analytics, offering users comprehensive tools for effective investment management.",
       "src": "./img/expertise/stock_market.jpeg",
       "linkGitHub": "https://github.com/PrasuHirapara/StockTracker-Hub",
-      "liveLink": "https://prasu-stocktrackerhub.netlify.app/signin",
+      "linkLive": "https://prasu-stocktrackerhub.netlify.app",
       "tech": ["./img/skills/reactjs.png","./img/skills/nodejs.png","./img/skills/express.png","./img/skills/mongodb.png"]
     },
     {
@@ -87,7 +87,7 @@
       "description": "Swari is a backend service providing song recommendations based on criteria like geolocation, time of day, search trends, trending songs, and artists. It is built using Node.js and Express, ensuring efficient and dynamic music suggestions. And also developed frontend using react to test the APIs.",
       "src": "./img/expertise/swari.jpeg",
       "linkGitHub": "https://github.com/PrasuHirapara/Swari-Song-Suggester",
-      "liveLink": "",
+      "linkLive": "",
       "tech": ["./img/skills/nodejs.png","./img/skills/express.png","./img/skills/reactjs.png","./img/skills/mongodb.png"]
     }
   ]
