@@ -26,13 +26,13 @@ export default function HeroSection() {
               my projects. Explore my portfolio to see some of my recent work,
               and feel free to reach out!
             </p>
-            <div className="hero--section--clickable hidden-left">
+            <div className="hero--section--clickable">
               <div className="hero--section--resume">
                 <button onClick={() => openLink("https://drive.google.com/file/d/16LkUDYpvz8NrdtfXkplOqf4hKIzQs3eE/view?usp=sharing")} className="btn btn-primary">
                   Resume
                 </button>
               </div>
-              <div className="hero--section--links--box">
+              <div className="hero--section--links--box hidden-left">
                 <div className="hero--section--links">
                   <svg
                     onClick={() =>

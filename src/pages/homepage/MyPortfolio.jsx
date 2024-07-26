@@ -1,14 +1,15 @@
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
-  
+
   let toggle = 1;
   const openGitHub = () => window.open("https://github.com/PrasuHirapara");
   const openLink = (link) => {
-    if(link){
+    if (link) {
       window.open(link);
+    } else {
+      window.alert("Servie not available right now");
     }
-    window.alert("Servie not available right now");
   }
 
   return (
@@ -43,49 +44,58 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <div className="portfolio--link--container">
-                <p
-                  onClick={() => openLink(item.linkGitHub)}
-                  className="text-sm portfolio--link"
-                >
-                  View in GitHub
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 20 19"
-                    fill="none"
+              <div className="portfolio--link-tech">
+                <div className="portfolio--link--container">
+                  <p
+                    onClick={() => openLink(item.linkGitHub)}
+                    className="text-sm portfolio--link"
                   >
-                    <path
-                      d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                      stroke="currentColor"
-                      strokeWidth="2.66667"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </p>
-                <p
-                  onClick={() => openLink(item.linkLive)}
-                  className="text-sm portfolio--link"
-                >
-                  View Live
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 20 19"
-                    fill="none"
+                    View in GitHub
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 20 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                        stroke="currentColor"
+                        strokeWidth="2.66667"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </p>
+                  <p
+                    onClick={() => openLink(item.linkLive)}
+                    className="text-sm portfolio--link"
                   >
-                    <path
-                      d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                      stroke="currentColor"
-                      strokeWidth="2.66667"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </p>
+                    View Live
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 20 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                        stroke="currentColor"
+                        strokeWidth="2.66667"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </p>
+                </div>
+                <div className="portfolio--tech--container">
+                  {item.tech?.map((item, index) => (
+                    <div className="portfolio--img">
+                      <img src={item} alt="technology" />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
