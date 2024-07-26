@@ -79,7 +79,7 @@
       "description": "Stocks Watchlist Manager is a project which helps people to analyze, create, and update watchlists as they want. It provides real-time stock tracking, customizable alerts, and detailed analytics, offering users comprehensive tools for effective investment management.",
       "src": "./img/expertise/stock_market.jpeg",
       "linkGitHub": "https://github.com/PrasuHirapara/StockTracker-Hub",
-      "liveLink": "",
+      "liveLink": "https://prasu-stocktrackerhub.netlify.app/signin",
       "tech": ["./img/skills/reactjs.png","./img/skills/nodejs.png","./img/skills/express.png","./img/skills/mongodb.png"]
     },
     {
