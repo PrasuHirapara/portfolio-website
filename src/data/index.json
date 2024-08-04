@@ -94,7 +94,7 @@
       "tech": ["./img/skills/dart.png","./img/skills/flutter.png","./img/skills/firebase.png"]
     },
     {
-      "title": "Stocks Watchlist Manager",
+      "title": "StockTracker Hub",
       "description": "Stocks Watchlist Manager is a project which helps people to analyze, create, and update watchlists as they want. It provides real-time stock tracking, customizable alerts, and detailed analytics, offering users comprehensive tools for effective investment management.",
       "src": "./img/expertise/stock_market.jpeg",
       "linkGitHub": "https://github.com/PrasuHirapara/StockTracker-Hub",
