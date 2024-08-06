@@ -28,7 +28,7 @@ export default function HeroSection() {
             </p>
             <div className="hero--section--clickable">
               <div className="hero--section--resume">
-                <button onClick={() => openLink("https://drive.google.com/file/d/16LkUDYpvz8NrdtfXkplOqf4hKIzQs3eE/view?usp=sharing")} className="btn btn-primary">
+                <button onClick={() => openLink("https://drive.google.com/file/d/1a26W9nHLSXv54IH11tMEFUcl8dG2ki7i/view?usp=sharing")} className="btn btn-primary">
                   Resume
                 </button>
               </div>
