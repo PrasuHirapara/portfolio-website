@@ -102,12 +102,12 @@
       "tech": ["./img/skills/reactjs.png","./img/skills/nodejs.png","./img/skills/express.png","./img/skills/mongodb.png"]
     },
     {
-      "title": "Swari: Song Suggester",
-      "description": "Swari is a backend service providing song recommendations based on criteria like geolocation, time of day, search trends, trending songs, and artists. It is built using Node.js and Express, ensuring efficient and dynamic music suggestions. And also developed frontend using react to test the APIs.",
-      "src": "./img/expertise/swari.jpeg",
-      "linkGitHub": "https://github.com/PrasuHirapara/Swari-Song-Suggester",
+      "title": "DSA kit",
+      "description": "DSAKIT is a JavaScript project offering a comprehensive library of data structures and algorithms. It includes sorting, searching, advanced arrays, tries, graphs, stacks, queues, linked lists, and more—providing efficient solutions for common DSA problems.",
+      "src": "./img/expertise/dsa.png",
+      "linkGitHub": "https://github.com/PrasuHirapara/dsakit",
       "linkLive": "",
-      "tech": ["./img/skills/nodejs.png","./img/skills/express.png","./img/skills/reactjs.png","./img/skills/mongodb.png"]
+      "tech": ["./img/skills/js.png"]
     }
   ]
 }
