@@ -107,12 +107,8 @@
     }
 
     .herosection--info--name {
-        font-size: 64px;
+        font-size: 54px;
         white-space: nowrap;
-    }
-
-    .herosection--info--name span {
-        display: inline;
     }
 
     .herosection--links {
