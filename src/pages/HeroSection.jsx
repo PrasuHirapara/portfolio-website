@@ -43,7 +43,7 @@ export default function HeroSection() {
                             speed={40}
                             repeat={Infinity}
                             cursor={true}
-                            style={{ fontSize: '27px', display: 'inline-block', fontWeight: 'bold', color: '#2548E3' }}
+                            style={{ fontSize: '20px', display: 'inline-block', fontWeight: 'bold', color: '#2548E3' }}
                         />
                     </div>
                 </div>
