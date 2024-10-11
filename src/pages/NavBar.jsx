@@ -17,38 +17,19 @@ export default function NavBar() {
             <span className="slider round"></span>
           </label>
           <div className={`navbar--menu ${isMenuOpen ? "open" : ""}`}>
-            <a className="navbar--text-button">
-              <Link
-                smooth={true}
-                duratio={500}
-                to='about'
-              >About
-              </Link>
+            <a className="navbar--text-button" href="#">
+              <Link smooth={true} duratio={500} to="about">About</Link>
             </a>
-            <a className="navbar--text-button">
-            <Link
-                smooth={true}
-                duratio={500}
-                to='skills'
-              >Skills
-              </Link>
+            <a className="navbar--text-button" href="#">
+              <Link smooth={true} duratio={500} to="skills">Skills</Link>
             </a>
-            <a className="navbar--text-button">
-            <Link
-                smooth={true}
-                duratio={500}
-                to='projects'
-              >Projects
-              </Link>
+            <a className="navbar--text-button" href="#">
+              <Link smooth={true} duratio={500} to="projects">Projects</Link>
             </a>
-            <a className="navbar--text-button">
-            <Link
-                smooth={true}
-                duratio={500}
-                to='contact'
-              >Contact
-              </Link>
+            <a className="navbar--text-button" href="#">
+              <Link smooth={true} duratio={500} to="contact">Contact</Link>
             </a>
+
           </div>
           <button className="menu-icon" onClick={toggleMenu}>
             {isMenuOpen ? "✖" : "☰"}
