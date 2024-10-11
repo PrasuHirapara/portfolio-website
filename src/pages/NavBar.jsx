@@ -1,11 +1,25 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import toggle_bgColor from "../utils/toggle_bgColor";
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const toggleColor = () => {
+    let root = document.documentElement;
+    
+    if (toggle) {
+      root.style.setProperty('--bg-color', 'black');
+      root.style.setProperty('--color', 'white');
+      root.setAttribute('data-theme', 'dark');
+    } else {
+      root.style.setProperty('--bg-color', 'white');
+      root.style.setProperty('--color', 'black');
+      root.setAttribute('data-theme', 'light');
+    }
+  }
+
+  useEffect(toggleColor, [toggle])
 
   return (
     <>
@@ -13,7 +27,7 @@ export default function NavBar() {
         <div className="navbar">
           <div className="navbar--title">Prasu Hirpara</div>
           <label className="switch">
-            <input type="checkbox" onChange={toggle_bgColor} />
+            <input type="checkbox" onChange={() => setToggle(!toggle)} />
             <span className="slider round"></span>
           </label>
           <div className={`navbar--menu ${isMenuOpen ? "open" : ""}`}>
@@ -30,7 +44,7 @@ export default function NavBar() {
               <Link smooth={true} duratio={500} to="contact">Contact</Link>
             </div>
           </div>
-          <button className="menu-icon" onClick={toggleMenu}>
+          <button className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? "✖" : "☰"}
           </button>
         </div>
