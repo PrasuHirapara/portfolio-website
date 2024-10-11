@@ -52,9 +52,9 @@ export default function ContactMe() {
   };
 
   return (
-    <section id="Contact" className="contact--section">
+    <section id="contact" className="contact--section">
       <div>
-        <h2 className="contact--title">Contact Me</h2>
+        <h1 className="contact--title">Contact Me</h1>
         <p
           onClick={() =>
             openLink(
@@ -68,11 +68,11 @@ export default function ContactMe() {
       </div>
       <form onSubmit={handleSubmit} className="contact--form--container">
         <div className="container">
-          <label htmlFor="firstName" className="contact--label hidden-left">
+          <label htmlFor="firstName" className="contact--label">
             <span className="text-md">First Name</span>
             <input
               type="text"
-              className="contact--input text-md hidden-left"
+              className="contact--input"
               name="firstName"
               id="firstName"
               value={formData.firstName}
@@ -80,11 +80,11 @@ export default function ContactMe() {
               required
             />
           </label>
-          <label htmlFor="lastName" className="contact--label hidden-left">
+          <label htmlFor="lastName" className="contact--label">
             <span className="text-md">Last Name</span>
             <input
               type="text"
-              className="contact--input text-md hidden-left"
+              className="contact--input"
               name="lastName"
               id="lastName"
               value={formData.lastName}
@@ -92,11 +92,11 @@ export default function ContactMe() {
               required
             />
           </label>
-          <label htmlFor="email" className="contact--label hidden-right">
+          <label htmlFor="email" className="contact--label">
             <span className="text-md">Email</span>
             <input
               type="email"
-              className="contact--input text-md hidden-right"
+              className="contact--input"
               name="email"
               id="email"
               value={formData.email}
@@ -104,11 +104,11 @@ export default function ContactMe() {
               required
             />
           </label>
-          <label htmlFor="mobile" className="contact--label hidden-right">
+          <label htmlFor="mobile" className="contact--label">
             <span className="text-md">Mobile Number</span>
             <input
-              type="text"
-              className="contact--input text-md hidden-right"
+              type="number"
+              className="contact--input"
               name="mobile"
               id="mobile"
               value={formData.mobile}
@@ -117,28 +117,27 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="message" className="contact--label hidden-up">
+        <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
-            className="contact--input text-md hidden-up"
+            className="contact--input"
             name="message"
             id="message"
             rows="4"
             value={formData.message}
             onChange={handleChange}
             placeholder="Type your message..."
-            required
           />
         </label>
         <div>
-          <button type="submit" className="btn btn-primary contact--form--btn">
+          <button type="submit" className="contact--btn">
             Submit
           </button>
         </div>
       </form>
       {responseMessage && (
         <div className="overlay" onClick={closeDialog}>
-          <div className="response-message text-md">
+          <div className="response-message">
             <p>{responseMessage}</p>
           </div>
         </div>
