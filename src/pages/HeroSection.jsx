@@ -27,7 +27,7 @@ export default function HeroSection() {
                         </div>
                     </div>
                     <div className="herosection--info-text">
-                        <p>I am</p>
+                        <p className="herosection--info-texts">I am</p>
                         <TypeAnimation
                             sequence={[
                                 'Full Stack developer.',
@@ -39,11 +39,12 @@ export default function HeroSection() {
                                 'Competitive programmer.',
                                 1000,
                             ]}
+                            className="herosection--info-texts"
                             wrapper="span"
                             speed={40}
                             repeat={Infinity}
                             cursor={true}
-                            style={{ fontSize: '20px', display: 'inline-block', fontWeight: 'bold', color: '#2548E3' }}
+                            style={{ display: 'inline-block', fontWeight: 'bold', color: '#2548E3' }}
                         />
                     </div>
                 </div>

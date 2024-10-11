@@ -80,7 +80,7 @@
     margin: 0px;
 }
 
-.herosection--info-text p {
+.herosection--info-texts {
     font-size: 27px;
     font-weight: bold;
     padding-right: 10px;
@@ -116,7 +116,7 @@
         justify-content: space-between;
         padding: 0px;
     }
-    .herosection--info-text p {
+    .herosection--info-texts {
         font-size: 20px;
         font-weight: bold;
         padding-right: 10px;
