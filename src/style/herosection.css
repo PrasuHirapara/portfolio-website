@@ -67,6 +67,7 @@
     width: 100%;
     object-fit: cover;
     filter: invert(0);
+    user-select: none;
 }
 
 [data-theme='dark'] .herosection--img-invert img {

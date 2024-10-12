@@ -2,6 +2,7 @@ nav {
   backdrop-filter: blur(8px);
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .navbar {

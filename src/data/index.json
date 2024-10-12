@@ -5,6 +5,23 @@
     "Recently, I contributed to the GirlScript Summer of Code and Hacktoberfest, which helped me further refine my coding abilities and collaborate with the open-source community.",
     "Let's connect and explore opportunities to collaborate on exciting ventures together"
   ],
+  "About": [
+    {
+      "id": 1,
+      "src": "./img/skills/compititive.png",
+      "title": "Compititve Programmer"
+    },
+    {
+      "id": 2,
+      "src": "./img/skills/frontend.png",
+      "title": "Frontend"
+    },
+    {
+      "id": 3,
+      "src": "./img/skills/backend.png",
+      "title": "Backend"
+    }
+  ],
   "Languages": [
     {
       "id": "1",
