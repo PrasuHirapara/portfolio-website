@@ -57,6 +57,10 @@
     transform-style: preserve-3d;
 }
 
+[data-theme="dark"] .aboutme--tilt-card{
+    background-color: red;
+}
+
 .aboutme--tilt-card-img {
     width: 224px;
     height: 160px;
@@ -66,7 +70,7 @@
 }
 
 .aboutme--tilt-card-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #ffffff;
     text-align: center;

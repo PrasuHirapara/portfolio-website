@@ -54,17 +54,7 @@ export default function ContactMe() {
   return (
     <section id="contact" className="contact--section">
       <div>
-        <h1 className="contact--title">Contact Me</h1>
-        <p
-          onClick={() =>
-            openLink(
-              "https://mail.google.com/mail/u/0/#inbox?compose=XBcJlKshkcCkMbnnCdWCrhdPFkvHfKsNNXKZghzlcCsdGqtWhCllVDZJGjZjcxpqzBRSWvccMGsRLzRb"
-            )
-          }
-          className="contact--mail text-lg"
-        >
-          prasuhirpara@gmail.com
-        </p>
+        <p className="contact--title text--title">Contact Me</p>
       </div>
       <form onSubmit={handleSubmit} className="contact--form--container">
         <div className="container">

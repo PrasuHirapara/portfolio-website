@@ -8,19 +8,17 @@
   align-items: center;
   text-align: center;
   overflow: hidden;
+  position: relative;
 }
 .contact--title {
-  font-size: 26px;
+  position: absolute;
   font-weight: bold;
-}
-.contact--mail {
-  color: #006b6a;
-  cursor: pointer;
-}
-.contact--mail:hover {
-  scale: 1.1;
+  top: 0;
+  left:64px;
 }
 .contact--form--container {
+  position: relative;
+  top: 80px;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(5, auto);
@@ -103,6 +101,12 @@
 }
 
 @media (max-width: 768px) {
+  .contact--title{
+    left: 34px;
+  }
+  .contact--form--container{
+    top: 100px;
+  }
   .contact--section {
     padding: 0px;
     margin: 0px;
