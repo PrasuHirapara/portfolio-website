@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import data from '../data/index.json';
+import initializeGyroscope from '../utils/initializeGyroscope.js'
 
 export default function AboutMe() {
     const tiltRefs = useRef([]);
@@ -16,6 +17,11 @@ export default function AboutMe() {
                 });
             }
         });
+
+        let gyroscope = initializeGyroscope(tiltRefs);
+
+        return gyroscope();
+
     }, []);
 
     return (
