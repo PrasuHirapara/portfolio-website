@@ -1,6 +1,24 @@
-import data from "../data/index.json";
-import Tilt from 'react-parallax-tilt';
+import React, { useRef, useEffect } from 'react';
+import Tilt from 'react-vanilla-tilt';
+import VanillaTilt from 'vanilla-tilt';
+import data from '../data/index.json';
+
 export default function AboutMe() {
+    const tiltRefs = useRef([]);
+
+    useEffect(() => {
+        tiltRefs.current.forEach((tiltCard) => {
+            if (tiltCard) {
+                VanillaTilt.init(tiltCard, {
+                    max: 40,
+                    speed: 400,
+                    glare: true,
+                    'max-glare': 0.3,
+                });
+            }
+        });
+    }, []);
+
     return (
         <>
             <section id="aboutme" className="aboutme">
@@ -14,13 +32,14 @@ export default function AboutMe() {
                 </div>
                 <div className="aboutme--tilt">
                     {data["About"].map((item, index) => (
-                        <Tilt key={index}>
-                            <div class="aboutme--tilt-card">
-                                <img src={item.src} alt="img" class="aboutme--tilt-card-img" />
-                                <h3 class="aboutme--tilt-card-title">{item.title}</h3>
-                                <div class="glare-wrapper"></div>
-                            </div>
-                        </Tilt>
+                        <div
+                            ref={(el) => (tiltRefs.current[index] = el)}
+                            className="aboutme--tilt-card"
+                            key={index}
+                        >
+                            <img src={item.src} alt="img" className="aboutme--tilt-card-img" />
+                            <h3 className="aboutme--tilt-card-title">{item.title}</h3>
+                        </div>
                     ))}
                 </div>
             </section>
