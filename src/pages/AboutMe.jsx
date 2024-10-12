@@ -7,8 +7,8 @@ export default function AboutMe() {
 
     const initializeGyroscope = (tiltRefs) => {
         const handleOrientation = (event) => {
-            const beta = event.beta;
-            const gamma = event.gamma;
+            const beta = Math.max(-30, Math.min(30, event.beta)); 
+            const gamma = Math.max(-30, Math.min(30, event.gamma));
 
             tiltRefs.current.forEach((card) => {
                 if (card) {
