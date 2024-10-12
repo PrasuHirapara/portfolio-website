@@ -38,7 +38,7 @@
 .aboutme--tilt {
     width: 100vw;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     padding-top: 70px;
     flex-wrap: wrap;
     background-color: var(--bg-color);
@@ -121,5 +121,6 @@
     .aboutme--tilt-card{
         height: 240px;
         width: 210px;
+        margin: 0px;
     }
 }

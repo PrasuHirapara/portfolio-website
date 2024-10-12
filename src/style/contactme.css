@@ -85,7 +85,6 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
   cursor: pointer;
   text-align: center;
   border-radius: 4px;
@@ -94,6 +93,7 @@
   color: white;
   border: 1px solid #5a3dcd;
   border-radius: 10px;
+  margin-bottom: 100px;
 }
 
 .contact--btn:hover {
