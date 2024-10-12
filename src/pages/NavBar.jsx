@@ -32,16 +32,16 @@ export default function NavBar() {
           </label>
           <div className={`navbar--menu ${isMenuOpen ? "open" : ""}`}>
             <div className="navbar--text-button">
-              <Link smooth={true} duratio={500} to="about">About</Link>
+              <Link smooth={true} duration={500} to="aboutme">About</Link>
             </div>
             <div className="navbar--text-button">
-              <Link smooth={true} duratio={500} to="skills">Skills</Link>
+              <Link smooth={true} duration={500} to="skills">Skills</Link>
             </div>
             <div className="navbar--text-button">
-              <Link smooth={true} duratio={500} to="projects">Projects</Link>
+              <Link smooth={true} duration={500} to="projects">Projects</Link>
             </div>
             <div className="navbar--text-button">
-              <Link smooth={true} duratio={500} to="contact">Contact</Link>
+              <Link smooth={true} duration={500} to="contact">Contact</Link>
             </div>
           </div>
           <button className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
