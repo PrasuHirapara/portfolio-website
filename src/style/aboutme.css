@@ -1,0 +1,43 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 64px;
+}
+
+.aboutme--title {
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.aboutme--title-intro {
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 16px;
+}
+
+.aboutme--intro {
+    color: #494F50;
+}
+
+.aboutme--para {
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .aboutme {
+        padding: 20px 34px 0px;
+        flex-direction: column;
+    }
+    .aboutme--title {
+        font-size: 24px;
+    }
+    .aboutme--title-intro {
+        font-size: 18px;
+    }
+    .aboutme--para {
+        line-height: 1.7;
+    }
+}

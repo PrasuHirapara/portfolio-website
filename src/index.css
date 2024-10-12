@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: sans-serif;
   background-color: var(--bg-color);
   color: var(--color);
 }
@@ -11,4 +11,20 @@ body {
 :root{
   --bg-color: white;
   --color: black;
+}
+
+.text--title{
+  font-size: 60px;
+  font-weight: 900;
+}
+
+[data-theme="dark"] .text--description{
+  font-size: 17px;
+  color: rgb(170 166 195);
+}
+
+@media (max-width: 768px) {
+  .text--title{
+    font-size: 40px;
+  }
 }
