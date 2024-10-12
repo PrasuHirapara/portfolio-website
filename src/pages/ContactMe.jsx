@@ -2,7 +2,6 @@ import { useState } from "react";
 import emailjs from 'emailjs-com';
 
 export default function ContactMe() {
-  const openLink = (link) => window.open(link);
 
   const [formData, setFormData] = useState({
     firstName: "",
