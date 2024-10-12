@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import Tilt from 'react-vanilla-tilt';
 import VanillaTilt from 'vanilla-tilt';
 import data from '../data/index.json';
 
