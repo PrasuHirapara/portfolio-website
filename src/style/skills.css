@@ -71,5 +71,6 @@
   .skills--circle {
     height: 80px;
     width: 80px;
+    padding: 0px;
   }
 }
