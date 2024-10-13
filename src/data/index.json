@@ -22,7 +22,7 @@
       "title": "Backend Developer"
     }
   ],
-  "Languages": [
+  "Technical": [
     {
       "id": "1",
       "src": "./img/skills/html.png",
@@ -45,8 +45,8 @@
     },
     {
       "id": "5",
-      "src": "./img/skills/dart.png",
-      "title": "dart"
+      "src": "./img/skills/ts.png",
+      "title": "Typescript"
     },
     {
       "id": "6",
@@ -60,8 +60,8 @@
     },
     {
       "id": "8",
-      "src": "./img/skills/firebase.png",
-      "title": "firebase"
+      "src": "./img/skills/redis.png",
+      "title": "redis"
     }
   ],
   "Frameworks": [
@@ -77,35 +77,24 @@
     },
     {
       "id": "3",
-      "src": "./img/skills/express.png",
+      "src": "./img/skills/expressjs.png",
       "title": "expressjs"
     },
     {
       "id": "4",
-      "src": "./img/skills/spring.png",
-      "title": "spring"
-    },
-    {
-      "id": "5",
       "src": "./img/skills/flutter.png",
       "title": "flutter"
     },
     {
-      "id": "6",
-      "src": "./img/skills/nextjs.png",
-      "title": "nextjs"
-    },
-    {
-      "id": "7",
+      "id": "5",
       "src": "./img/skills/mongodb.png",
       "title": "mongodb"
     },
     {
-      "id": "8",
+      "id": "6",
       "src": "./img/skills/git.png",
       "title": "git"
     }
-    
   ],
   "portfolio": [
     {
@@ -114,7 +103,11 @@
       "src": "./img/expertise/expense_manager.png",
       "linkGitHub": "https://github.com/PrasuHirapara/Spend-Wise",
       "linkLive": "",
-      "tech": ["./img/skills/dart.png","./img/skills/flutter.png","./img/skills/firebase.png"]
+      "tech": [
+        "./img/skills/dart.png",
+        "./img/skills/flutter.png",
+        "./img/skills/firebase.png"
+      ]
     },
     {
       "title": "StockTracker Hub",
@@ -122,7 +115,12 @@
       "src": "./img/expertise/stock_market.jpeg",
       "linkGitHub": "https://github.com/PrasuHirapara/StockTracker-Hub",
       "linkLive": "https://prasu-stocktrackerhub.netlify.app",
-      "tech": ["./img/skills/reactjs.png","./img/skills/nodejs.png","./img/skills/express.png","./img/skills/mongodb.png"]
+      "tech": [
+        "./img/skills/reactjs.png",
+        "./img/skills/nodejs.png",
+        "./img/skills/express.png",
+        "./img/skills/mongodb.png"
+      ]
     },
     {
       "title": "DSA kit",
