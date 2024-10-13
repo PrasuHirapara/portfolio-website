@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    overflow: hidden;
+  overflow: hidden;
   background: linear-gradient(145.13deg, #edc6a5 40%, #383850 100%);
   animation: jump 2s ease-in-out infinite;
   box-shadow: black;
@@ -38,8 +38,8 @@
   object-fit: cover;
 }
 
-.skills--circle img:hover{
-    animation: rotate 1s linear infinite;
+.skills--circle img:hover {
+  animation: rotate 1s linear infinite;
 }
 
 @keyframes jump {
@@ -55,17 +55,21 @@
 }
 
 @keyframes rotate {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 768px) {
   .skills {
     padding: 20px 34px 0px;
     flex-direction: column;
+  }
+  .skills--circle {
+    height: 80px;
+    width: 80px;
   }
 }
