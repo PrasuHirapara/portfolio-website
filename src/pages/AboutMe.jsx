@@ -12,7 +12,7 @@ export default function AboutMe() {
 
             tiltRefs.current.forEach((card) => {
                 if (card) {
-                    card.style.transform = `rotateX(${gamma}deg) rotateY(${-beta}deg)`;
+                    card.style.transform = `rotateY(${-gamma}deg) rotateX(${beta}deg)`;
                 }
             });
         };
