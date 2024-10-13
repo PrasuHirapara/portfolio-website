@@ -41,13 +41,14 @@ export default function AboutMe() {
         });
 
         const gyroscopeCleanup = initializeGyroscope(tiltRefs);
+        
         return gyroscopeCleanup;
     }, [tiltRefs]);
 
     return (
         <section id="aboutme" className="aboutme">
-            <div className="aboutme--title">ABOUT ME</div>
-            <div className="aboutme--title-intro text--title">Introduction</div>
+            <div className="aboutme--title text--title-sm">ABOUT ME</div>
+            <div className="aboutme--title-intro text--title-lg">Introduction</div>
             <div className="aboutme--intro">
                 <p className="aboutme--para text--description">{data["Introduction"][0]}</p>
                 <p className="aboutme--para text--description">{data["Introduction"][1]}</p>

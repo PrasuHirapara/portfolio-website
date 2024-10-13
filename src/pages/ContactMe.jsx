@@ -53,7 +53,7 @@ export default function ContactMe() {
   return (
     <section id="contact" className="contact--section">
       <div>
-        <p className="contact--title text--title">Contact Me</p>
+        <p className="contact--title text--title-lg">Contact Me</p>
       </div>
       <form onSubmit={handleSubmit} className="contact--form--container">
         <div className="container">
