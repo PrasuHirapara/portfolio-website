@@ -1,5 +1,3 @@
-import data from "../data/index.json";
-
 export default function Projects() {
     return (
         <>
@@ -14,12 +12,12 @@ export default function Projects() {
                                 <div className="projects--container-description text--description">{item.description}</div>
                                 <div className="projects--container-about">
                                     <div className="projects--container-links">
-                                        <a href={item.linkLive} target="_blank">View Live</a>
-                                        <a href={item.linkGitHub} target="_blank">GitHub</a>
+                                        <a href={item.linkLive} target="_blank" rel="noopener noreferrer">View Live</a>
+                                        <a href={item.linkGitHub} target="_blank" rel="noopener noreferrer">GitHub</a>
                                     </div>
                                     <div className="projects--container-tech">
                                         {item.tech.map((img, index) => (
-                                            <img key={index} src={img} alt="img"/>
+                                            <img key={index} src={img} alt="img" />
                                         ))}
                                     </div>
                                 </div>
