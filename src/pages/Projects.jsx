@@ -14,8 +14,8 @@ export default function Projects() {
                                 <div className="projects--container-description text--description">{item.description}</div>
                                 <div className="projects--container-about">
                                     <div className="projects--container-links">
-                                        <a href={item.linkLive}>View Live</a>
-                                        <a href={item.linkGitHub}>GitHub</a>
+                                        <a href={item.linkLive} target="_blank">View Live</a>
+                                        <a href={item.linkGitHub} target="_blank">GitHub</a>
                                     </div>
                                     <div className="projects--container-tech">
                                         {item.tech.map((img, index) => (
