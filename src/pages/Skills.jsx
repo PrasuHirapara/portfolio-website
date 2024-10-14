@@ -9,16 +9,22 @@ export default function Skills() {
                 <div className="skills--text text--title-sm">TECHNICAL LANGUAGES</div>
                 <div className="skills--circles">
                     {data["Technical"].map((item, index) => (
-                        <div key={index} className="skills--circle">
-                            <img src={item.src} alt={item.title} />
+                        <div className='skills--circle--full'>
+                            <div key={index} className="skills--circle">
+                                <img src={item.src} alt={item.title} />
+                            </div>
+                            <div className="skills--shadow"></div>
                         </div>
                     ))}
                 </div>
                 <div className="skills--text text--title-sm">TECHNOLOGIES AND FRAMEWORKS</div>
                 <div className="skills--circles">
                     {data["Frameworks"].map((item, index) => (
-                        <div key={index} className="skills--circle">
-                            <img src={item.src} alt={item.title} />
+                        <div className='skills--circle--full'>
+                            <div key={index} className="skills--circle">
+                                <img src={item.src} alt={item.title} />
+                            </div>
+                            <div className="skills--shadow"></div>
                         </div>
                     ))}
                 </div>

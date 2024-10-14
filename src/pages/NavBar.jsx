@@ -7,7 +7,7 @@ export default function NavBar() {
 
   const toggleColor = () => {
     let root = document.documentElement;
-    
+
     if (toggle) {
       root.style.setProperty('--bg-color', 'black');
       root.style.setProperty('--color', 'white');
@@ -16,6 +16,11 @@ export default function NavBar() {
       root.style.setProperty('--bg-color', 'white');
       root.style.setProperty('--color', 'black');
       root.setAttribute('data-theme', 'light');
+
+      const circles = document.querySelectorAll('.skills--circle::after');
+      circles.forEach(circle => {
+        circle.style.background = 'rgba(51, 51, 51, 0.5)';
+      });
     }
   }
 
