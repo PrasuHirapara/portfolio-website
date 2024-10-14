@@ -3,6 +3,7 @@ import ContactMe from "./ContactMe"
 import HeroSection from "./HeroSection";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutMe />
       <Skills />
+      <Projects />
       <ContactMe />
     </>
   );

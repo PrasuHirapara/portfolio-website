@@ -50,10 +50,10 @@ export default function AboutMe() {
             <div className="aboutme--title text--title-sm">ABOUT ME</div>
             <div className="aboutme--title-intro text--title-lg">Introduction</div>
             <div className="aboutme--intro">
-                <p className="aboutme--para text--description">{data["Introduction"][0]}</p>
-                <p className="aboutme--para text--description">{data["Introduction"][1]}</p>
-                <p className="aboutme--para text--description">{data["Introduction"][2]}</p>
-                <p className="aboutme--para text--description">{data["Introduction"][3]}</p>
+                <p className="aboutme--para">{data["Introduction"][0]}</p>
+                <p className="aboutme--para">{data["Introduction"][1]}</p>
+                <p className="aboutme--para">{data["Introduction"][2]}</p>
+                <p className="aboutme--para">{data["Introduction"][3]}</p>
             </div>
             <div className="aboutme--tilt">
                 {data["About"].map((item, index) => (

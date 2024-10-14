@@ -96,7 +96,7 @@
       "title": "git"
     }
   ],
-  "portfolio": [
+  "Projects": [
     {
       "title": "Spend Wise",
       "description": "Expense Manager is a Flutter-based app built with Dart and Firebase, designed to track credit and debit transactions. It features intuitive graphs, detailed insights, and user-friendly tools for effective expense analysis and budgeting, enhancing financial awareness.",
@@ -118,7 +118,7 @@
       "tech": [
         "./img/skills/reactjs.png",
         "./img/skills/nodejs.png",
-        "./img/skills/express.png",
+        "./img/skills/expressjs.png",
         "./img/skills/mongodb.png"
       ]
     },
