@@ -90,6 +90,10 @@
   padding-left: 10px;
 }
 
+.projects--container-tech img:hover{
+    animation: rotate 2s linear infinite;
+}
+
 @media (max-width: 768px) {
   .projects {
     padding: 20px 34px 0px;
