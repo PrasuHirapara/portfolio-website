@@ -14,7 +14,7 @@ export default function HeroSection() {
                     <div className="herosection--links">
                         <button className="herosection--links-resume" onClick={() => openLink(`https://drive.google.com/file/d/1w-3mgUUcWT2K-igPWr6_HPUjA1rRw8xM/view?usp=sharing`)}>My Resume</button>
                         <div className="herosection--links-account herosection--img-invert">
-                            <img src="./img/skills/leetcode.svg" alt="leetcode" onClick={() => openLink(`https://leetcode.com/u/PrasuHirpara/`)} />
+                            <img src="./img/skills/leetcode.svg" alt="leetcode" onClick={() => openLink(`https://leetcode.com/u/T1kaEMs9Rr/`)} />
                         </div>
                         <div className="herosection--links-account herosection--img-invert">
                             <img src="./img/skills/github.svg" alt="github" onClick={() => openLink(`https://github.com/PrasuHirapara`)} />
