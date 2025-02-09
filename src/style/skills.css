@@ -44,11 +44,8 @@
 .skills--circle img {
   height: 70%;
   width: 70%;
+  mix-blend-mode: multiply;
   object-fit: cover;
-}
-
-.skills--circle img:hover {
-  animation: rotate 1s linear infinite;
 }
 
 .skills--shadow {

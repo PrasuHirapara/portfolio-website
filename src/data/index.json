@@ -72,41 +72,46 @@
     },
     {
       "id": "2",
-      "src": "./img/skills/nodejs.png",
+      "src": "./img/skills/springboot.jpg",
       "title": "nodejs"
     },
     {
       "id": "3",
+      "src": "./img/skills/nodejs.png",
+      "title": "nodejs"
+    },
+    {
+      "id": "4",
       "src": "./img/skills/expressjs.png",
       "title": "expressjs"
     },
     {
-      "id": "4",
+      "id": "5",
       "src": "./img/skills/flutter.png",
       "title": "flutter"
     },
     {
-      "id": "5",
+      "id": "6",
       "src": "./img/skills/mongodb.png",
       "title": "mongodb"
     },
     {
-      "id": "6",
+      "id": "7",
       "src": "./img/skills/git.png",
       "title": "git"
     }
   ],
   "Projects": [
     {
-      "title": "Spend Wise",
-      "description": "Expense Manager is a Flutter-based app built with Dart and Firebase, designed to track credit and debit transactions. It features intuitive graphs, detailed insights, and user-friendly tools for effective expense analysis and budgeting, enhancing financial awareness.",
-      "src": "./img/expertise/expense_manager.png",
-      "linkGitHub": "https://github.com/PrasuHirapara/Spend-Wise",
-      "linkLive": "",
+      "title": "Alumni Architect",
+      "description": "Alumni Architect is a networking platform connecting alumni and students from technical institutions. It streamlines interactions, ensures authenticity, and enhances engagement through structured career guidance, mentorship, and opportunity sharing, addressing fragmented systems and unorganized communications with advanced technology-driven solutions.",
+      "src": "./img/expertise/alumniarchitect.png",
+      "linkGitHub": "https://github.com/AlumniArchitect/AlumniArchitects/",
+      "linkLive": "https://alumniarchitect.netlify.app/",
       "tech": [
-        "./img/skills/dart.png",
-        "./img/skills/flutter.png",
-        "./img/skills/firebase.png"
+        "./img/skills/reactjs.png",
+        "./img/skills/springboot.jpg",
+        "./img/skills/mongodb.png"
       ]
     },
     {
@@ -120,6 +125,18 @@
         "./img/skills/nodejs.png",
         "./img/skills/expressjs.png",
         "./img/skills/mongodb.png"
+      ]
+    },
+    {
+      "title": "Spend Wise",
+      "description": "Expense Manager is a Flutter-based app built with Dart and Firebase, designed to track credit and debit transactions. It features intuitive graphs, detailed insights, and user-friendly tools for effective expense analysis and budgeting, enhancing financial awareness.",
+      "src": "./img/expertise/expense_manager.png",
+      "linkGitHub": "https://github.com/PrasuHirapara/Spend-Wise",
+      "linkLive": "",
+      "tech": [
+        "./img/skills/dart.png",
+        "./img/skills/flutter.png",
+        "./img/skills/firebase.png"
       ]
     },
     {
