@@ -114,6 +114,7 @@
     border-bottom: 1.5px solid var(--color);
     border: 0px;
     padding-bottom: 10px;
+    mix-blend-mode: multiply;
   }
 
   .projects--container-about{
