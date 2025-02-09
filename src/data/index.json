@@ -72,7 +72,7 @@
     },
     {
       "id": "2",
-      "src": "./img/skills/springboot.jpg",
+      "src": "./img/skills/springboot.png",
       "title": "nodejs"
     },
     {
@@ -110,7 +110,7 @@
       "linkLive": "https://alumniarchitect.netlify.app/",
       "tech": [
         "./img/skills/reactjs.png",
-        "./img/skills/springboot.jpg",
+        "./img/skills/springboot.png",
         "./img/skills/mongodb.png"
       ]
     },

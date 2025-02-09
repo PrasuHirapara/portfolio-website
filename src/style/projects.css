@@ -114,7 +114,6 @@
     border-bottom: 1.5px solid var(--color);
     border: 0px;
     padding-bottom: 10px;
-    mix-blend-mode: multiply;
   }
 
   .projects--container-about{
@@ -143,14 +142,6 @@
     overflow: hidden;
     object-fit: cover;
     border: 0px;
-  }
-}
-
-@keyframes rotateImg {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
+    mix-blend-mode: multiply;
   }
 }
