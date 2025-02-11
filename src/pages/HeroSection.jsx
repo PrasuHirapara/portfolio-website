@@ -12,7 +12,7 @@ export default function HeroSection() {
                         <p>Hi, I am <span>Prasu.</span></p>
                     </div>
                     <div className="herosection--links">
-                        <button className="herosection--links-resume" onClick={() => openLink(`https://drive.google.com/file/d/1w-3mgUUcWT2K-igPWr6_HPUjA1rRw8xM/view?usp=sharing`)}>My Resume</button>
+                        <button className="herosection--links-resume" onClick={() => openLink(`https://drive.google.com/file/d/1X9MJRV9eK-juJ07jPr4fMMm_FzNc8_uQ/view?usp=sharing`)}>My Resume</button>
                         <div className="herosection--links-account herosection--img-invert">
                             <img src="./img/skills/leetcode.svg" alt="leetcode" onClick={() => openLink(`https://leetcode.com/u/T1kaEMs9Rr/`)} />
                         </div>
