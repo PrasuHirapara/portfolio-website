@@ -128,6 +128,14 @@
       ]
     },
     {
+      "title": "DSA kit",
+      "description": "DSAKIT is a JavaScript project offering a comprehensive library of data structures and algorithms. It includes sorting, searching, advanced arrays, tries, graphs, stacks, queues, linked lists, and more—providing efficient solutions for common DSA problems.",
+      "src": "./img/expertise/dsa.png",
+      "linkGitHub": "https://github.com/PrasuHirapara/dsakit",
+      "linkLive": "https://www.npmjs.com/package/dsakit",
+      "tech": ["./img/skills/js.png"]
+    },
+    {
       "title": "Spend Wise",
       "description": "Expense Manager is a Flutter-based app built with Dart and Firebase, designed to track credit and debit transactions. It features intuitive graphs, detailed insights, and user-friendly tools for effective expense analysis and budgeting, enhancing financial awareness.",
       "src": "./img/expertise/expense_manager.png",
@@ -138,14 +146,6 @@
         "./img/skills/flutter.png",
         "./img/skills/firebase.png"
       ]
-    },
-    {
-      "title": "DSA kit",
-      "description": "DSAKIT is a JavaScript project offering a comprehensive library of data structures and algorithms. It includes sorting, searching, advanced arrays, tries, graphs, stacks, queues, linked lists, and more—providing efficient solutions for common DSA problems.",
-      "src": "./img/expertise/dsa.png",
-      "linkGitHub": "https://github.com/PrasuHirapara/dsakit",
-      "linkLive": "",
-      "tech": ["./img/skills/js.png"]
     }
   ]
 }
